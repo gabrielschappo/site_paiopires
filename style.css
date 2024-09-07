@@ -1,0 +1,175 @@
+body{
+    background-color: #282916;
+}
+.cabecalho{
+    background-color: #38391e;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+#abelinha{
+    height: 100px;
+    align-self: center;
+    margin-right: 200px;
+}
+#botao_sobre{
+    align-self: center;
+    margin-inline: 40px;
+    font-size: larger;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#botao_equipe{
+    align-self: center;
+    margin-inline: 40px;
+    font-size: larger;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#botao_noticias{
+    align-self: center;
+    margin-inline: 40px;
+    font-size: larger;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#texto_big{
+    font-size: 300%;
+    color: white;
+}
+#texto_paiopires{
+    font-size: 300%;
+    color: yellow;
+    font-family: Georgia, serif;
+    margin-left: 15px;
+}
+h4{
+    color: white;
+}
+.conheca{
+    display: inline;
+    text-align: center;
+}
+.conheca1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: white;
+}
+.sobre{
+    display: inline;
+    justify-content: center;
+}
+.sobre_text{
+    text-align: center;
+}
+#texto_oq{
+    color: white;
+    font-size: 200%;
+}
+.grade_sobre{
+    background-color: #38391e;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-inline: 350px;
+}
+.grade1{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.grade2{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#img_vencedores{
+    height: 250px;
+    width: 350px;
+}
+#texto_equipe{
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+#texto_letsgo{
+    color: yellow;
+    font-size: 200%;
+    text-align: center;
+}
+.grade_equipe{
+    display: flex;
+    justify-content: space-around;
+}
+#img_jog1{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+#img_jog2{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+#img_jog3{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+#img_jog4{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+#img_jog5{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+.player1{
+    background-color: #38391e;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.player2{
+    background-color: #38391e;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.player3{
+    background-color: #38391e;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.player4{
+    background-color: #38391e;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.player5{
+    background-color: #38391e;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+#text_player{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#img_funcao{
+    height: 25px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 1px;
+}
+#img_gc{
+    margin-bottom: 10px;
+}
