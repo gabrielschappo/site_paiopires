@@ -1,83 +1,79 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Paio Pires Academy</title>
-        <style>
-            .cabecalho{
-                display: flex;
-                justify-content: space-around;
-            }
-            .foto-abelinha{
-                margin-top: 50px;
-                
-            }
-            .botoes{
-                margin-top: 80px;
-            }
-            #button_sobre{
-                margin-right: 20px;
-            }
-            #button_equipe{
-                margin-right: 20px;
-            }
-            .conheca{
-                background-color: #383E1F;
-                text-align: center;
-            }
-            #texto_big{
-                font-size: 300%;
-            }
-            .sobre{
-                text-align: center;
-            }
-            .grade_sobre{
-                display: flex;
-                justify-content: center;
-            }
-            .grade1{
-                margin-right: 100px;
-            }
-            #img_sobre1{
-                padding: 5%;
-            }
-            #img_sobre2{
-                padding: 5%;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <div class="cabecalho">
-                <div class="foto-abelinha">
-                    <a href="http://127.0.0.1:3000/index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoEsEzuSVGi4ZGdsOxGRUqOM6_XsMG_qGkuQ&s" height="100"></a>
-                </div>
-                <div class="botoes">
-                    <a href="#sobre"><button href="#sobre" id="button_sobre">Sobre</button></a>
-                    <button href="#equipe" id="button_equipe">Equipe</button>
-                    <button href="#noticias">Noticias</button>
-                </div>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paio Pires Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="imagem_abelinha">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTvyDA_UUh_LbVC2B5T_AtqSs6T5xs-PChaMRM4ySYyudN5lrVYLdgcM_yMWNkohawPe7uc-QKT_Qox1kCsURyfJ6wNUQHcreli33zebuoqlwSfcdU8DbxeEM9-IY_AIu1Mnvc2w12Hm3V/s1600/Mascote+Paio+Pires.jpg" alt="Logo Paio Pires" id="abelinha">
             </div>
-        </header>
-        <div class="conheca">
-            <h2 id="texto_big">Conheça a família Paio Pires!</h2>
+            <a href="#sobre" id="botao_sobre">Sobre</a>
+            <a href="#equipe" id="botao_equipe">Equipe</a>
+            <a href="#noticias" id="botao_noticias">Notícias</a>
+        </div>
+    </header>
+    <div class="conheca">
+        <div class="conheca1">
+            <h2 id="texto_big">Conheça a família <h2 id="texto_paiopires">Paio Pires!</h2></h2>
+        </div>
+        <div class="conheca2">
             <h4>Paio Pires Academy é muito mais do que uma ademia de Counter-Strike... Somos uma família!</h4>
+            <video src=""></video>
         </div>
-        <div class="sobre" id="sobre">
-            <h2>O QUE É O PAIO PIRES ACADEMY?</h2>
+    </div>
+    <div class="sobre" id="sobre">
+        <div class="sobre_text">
+            <h2 id="texto_oq">O QUE É O PAIO PIRES ACADEMY?</h2>
             <p>Paio Pires Academy é uma equipe brasileira de Counter-Strike 2 que participa de campeonatos e atua ativamente na formação e desenvolvimento de futuras promessas do cenário nacional.</p>
-            <div class="grade_sobre">
-                <div class="grade1">
-                    <img src="https://www.esports.net/br/wp-content/uploads/sites/3/2022/03/20211107_PGLMajorStockholm2021_@itsmeERROR_08303.jpg" height="200" id="img_sobre1">
-                    <p><b>EQUIPE VENCEDORA:</b> Somos uma equipe com sede de vitória</p>
-                </div>
-                <div class="grade2">
-                    <img src="https://www.esports.net/br/wp-content/uploads/sites/3/2022/03/20211107_PGLMajorStockholm2021_@itsmeERROR_08303.jpg" height="200" id="img_sobre2">
-                    <p><b>ATIVOS NO MERCADO:</b> Estamos sempre procurando novas promessas.</p>
-                </div>
+        </div>
+        <div class="grade_sobre">
+            <div class="grade1">
+                <img src="fotos\equipe_vencedora.JPG" alt="Vencedores" id="img_vencedores">
+                <h4>EQUIPE VENCEDORA</h4>
+                <p>Somos uma equipe com sede de vitória</p>
+            </div>
+            <div class="grade2">
+                <img src="fotos\novos_talentos.JPG" alt="Novos talentos" id="img_vencedores">
+                <h4>ATIVOS NO MERCADO</h4>
+                <p>Estamos sempre procurando novas promessas</p>
             </div>
         </div>
-        <div class="equipe">
-            
+    </div>
+    <div class="equipe" id="equipe">
+        <h2 id="texto_equipe">CONHEÇA NOSSA EQUIPE</h2>
+        <h2 id="texto_letsgo">#LETSGOBEES🐝</h2>
+        <div class="grade_equipe">
+            <div class="player1">
+                <img src="fotos\domi.JPG" alt="Jogador 1" id="img_jog1">
+                <h4 id="text_player">astr0  <img src="fotos\target.png" alt="awper" id="img_funcao"></h4>
+                <a href="https://gamersclub.com.br/player/2110439" target="_blank"><img src="fotos\gc.png" alt="logo gamers club"></a>
+            </div>
+            <div class="player2">
+                <img src="fotos\m1ster.JPG" alt="jogador 2" id="img_jog2">
+                <h4 id="text_player">m1ster  <img src="fotos\rifle.png" alt="rifler" id="img_funcao"></h4>
+                <a href="https://gamersclub.com.br/player/2109868" target="_blank"><img src="fotos\gc.png" alt="logo gamers club"></a>
+            </div>
+            <div class="player3">
+                <img src="fotos\tasca.JPG" alt="jogador 3" id="img_jog3">
+                <h4 id="text_player">TASCA1 <img src="fotos\flashbang.png" alt="suporte" id="img_funcao"></h4>
+                <a href="https://gamersclub.com.br/player/2125146" target="_blank"><img src="fotos\gc.png" alt="logo gamers club"></a>
+            </div>
+            <div class="player4">
+                <img src="fotos\pad.JPG" alt="jogador 4" id="img_jog4">
+                <h4 id="text_player">pad1lha <img src="fotos\rifle.png" alt="rifler" id="img_funcao"></h4>
+                <a href="https://gamersclub.com.br/player/1937625" target="_blank"><img src="fotos\gc.png" alt="logo gamers club"></a>
+            </div>
+            <div class="player5">
+                <img src="fotos\rulff.JPG" alt="jogador 5" id="img_jog5">
+                <h4 id="text_player">rulff <img src="fotos\rifle.png" alt="rifler" id="img_funcao"></h4>
+                <a href="https://gamersclub.com.br/player/1934087" target="_blank"><img src="fotos\gc.png" alt="logo gamers club" id="img_gc"></a>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
