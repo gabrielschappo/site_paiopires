@@ -173,3 +173,18 @@ p{
 #img_gc{
     margin-bottom: 10px;
 }
+.grade_suplentes{
+    display: flex;
+    justify-content: space-around;
+}
+#img_jog6{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+.suplente1{
+    margin-top: 20px;
+    background-color: #38391e;
+    text-align: center;
+    border-radius: 8px;
+}
