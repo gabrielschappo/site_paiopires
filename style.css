@@ -70,26 +70,27 @@ p{
     font-size: 200%;
 }
 .grade_sobre{
-    background-color: #38391e;
-    border-radius: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 20px;
-    margin-inline: 350px;
+    margin-inline: 300px;
 }
 .grade1{
     text-align: center;
     margin-top: 20px;
-    margin-right: 20px;
+    background-color: #38391e;
+    border-radius: 8px;
 }
 .grade2{
     text-align: center;
     margin-top: 20px;
-    margin-left: 20px;
+    background-color: #38391e;
+    border-radius: 8px;
 }
 #img_vencedores{
     height: 250px;
     width: 350px;
+    padding: 10px;
 }
 #texto_equipe{
     color: white;
