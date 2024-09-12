@@ -35,11 +35,11 @@ body{
     color: whitesmoke;
 }
 #texto_big{
-    font-size: 300%;
+    font-size: 400%;
     color: white;
 }
 #texto_paiopires{
-    font-size: 300%;
+    font-size: 400%;
     color: yellow;
     font-family: Georgia, serif;
     margin-left: 15px;
@@ -48,15 +48,15 @@ h4{
     color: white;
 }
 .conheca{
-    display: inline;
+    display: flex;
     text-align: center;
 }
 .conheca1{
-    display: flex;
+    display: inline;
     justify-content: center;
 }
 #video_conheca{
-    height: 400px;
+    height: 370px;
 }
 p{
     color: white;
