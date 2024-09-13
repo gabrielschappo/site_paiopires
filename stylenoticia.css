@@ -1,0 +1,40 @@
+.noticias {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.noticia {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.noticia img {
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.noticia .conteudo {
+    flex: 1;
+}
+
+.noticia h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.noticia .resumo {
+    color: #555;
+}
+
+.noticia .data {
+    font-size: 14px;
+    color: #999;
+}
+
+.noticia a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
